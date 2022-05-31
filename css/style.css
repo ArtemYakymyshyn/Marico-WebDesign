@@ -184,7 +184,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #306ef7;
+    background-color: rgb(48, 110, 247);
   }
 }
 @media (max-width: 624px) {
@@ -260,7 +260,7 @@ body {
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a {
-    color: #306ef7;
+    color: rgb(48, 110, 247);
     width: 119px;
     height: 55px;
   }
@@ -502,7 +502,7 @@ body {
 .sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-button-text .sl-ele-2-bt-outer .sl-ele-2-bt-inner {
   width: 17px;
   height: 17px;
-  background: #0fc65c;
+  background: rgb(15, 198, 92);
   border-radius: 50%;
 }
 .sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-button-text p:last-child {
