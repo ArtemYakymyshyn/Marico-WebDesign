@@ -78,3 +78,72 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+.fs-element-1 {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  & img {
+    width: 45px;
+    height: 42px;
+    margin-right: 15px;
+  }
+  & a {
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 56px;
+    color: #ffffff;
+    transition-duration: 0.2s;
+    &:hover {
+      letter-spacing: 8.8px;
+      color: crimson;
+    }
+  }
+}
+.fs-element-2 {
+  & ul {
+    display: flex;
+    align-items: center;
+
+    & li {
+      & a {
+        margin-left: 38px;
+        font-weight: 500;
+        font-size: 20px;
+        transition-duration: 0.3s;
+        color: #707070;
+        &:hover {
+          letter-spacing: 2.8px;
+          color: crimson;
+        }
+        cursor: pointer;
+        @media (max-width: 1000px) {
+          color: white;
+        }
+      }
+    }
+    & li:first-child {
+      & a {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & div {
+          width: 11px;
+          height: 6px;
+          margin-left: 6px;
+          overflow: hidden;
+          &:hover {
+            color: crimson;
+          }
+        }
+      }
+    }
+    & li:last-child {
+      & a {
+        margin-right: 0;
+      }
+    }
+  }
+}

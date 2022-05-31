@@ -12,7 +12,10 @@ $fsBurgerMenuWraper.addEventListener('click', () => {
 });
 
 //hello
-
+const buttons = document.querySelectorAll('button')
+for (let i = 0; i < buttons.length; i++) {
+   buttons[i].classList.add('baton-activ');
+}
 
 
 

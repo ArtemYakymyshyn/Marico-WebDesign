@@ -45,6 +45,11 @@ body {
                   font-size: 37px;
                   line-height: 56px;
                   color: #ffffff;
+                  transition-duration: 0.2s;
+                  &:hover {
+                     letter-spacing: 8.8px;
+                     color: crimson;
+                  }
                }
             }
             .fs-elementTwoAndThree {
@@ -82,8 +87,12 @@ body {
                            margin-left: 38px;
                            font-weight: 500;
                            font-size: 20px;
-
+                           transition-duration: 0.3s;
                            color: #707070;
+                           &:hover {
+                              letter-spacing: 2.8px;
+                              color: crimson;
+                           }
                            cursor: pointer;
                            @media (max-width: 1000px) {
                               color: white;
@@ -102,6 +111,9 @@ body {
                               height: 6px;
                               margin-left: 6px;
                               overflow: hidden;
+                              &:hover {
+                                 color: crimson;
+                              }
                            }
                         }
                      }
