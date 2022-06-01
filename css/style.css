@@ -336,8 +336,13 @@ body {
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child {
   background-color: black;
+  width: 119px;
+  height: 55px;
   -webkit-transform: translateX(-23px);
           transform: translateX(-23px);
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child:hover {
+  width: 140px;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child {
@@ -347,9 +352,16 @@ body {
   }
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a {
-  color: #707070;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
+  width: 119px;
+  height: 55px;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a:hover {
+  width: 100%;
+  height: 100%;
+  color: white;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a {
@@ -363,6 +375,9 @@ body {
   width: 119px;
   height: 55px;
   color: white;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:last-child:hover {
+  width: 140px;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:last-child {
@@ -552,6 +567,9 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+.sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-buttons button:first-child:hover {
+  width: 340px;
+}
 @media (max-width: 748px) {
   .sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-buttons button:first-child {
     margin-bottom: 40px;
@@ -564,6 +582,9 @@ body {
   height: 76px;
   color: white;
   font-size: 20px;
+}
+.sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-buttons button:last-child:hover {
+  width: 340px;
 }
 .sectionOne .secOne-wrk .second-line .sl-column .sl-element-2 .sl-element-2-button-text {
   display: -webkit-box;
@@ -821,6 +842,9 @@ body {
   font-size: 20px;
   color: #707070;
 }
+.sectionTwo .secTwo-wrk .stepOne-line .stOne-element-1 button:hover {
+  width: 340px;
+}
 .sectionTwo .secTwo-wrk .stepOne-line .stOne-element-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -951,6 +975,9 @@ body {
   background: #326cf9;
   margin-right: 16px;
 }
+.sectionTwo .secTwo-wrk .stepOne-line .stOne-element-2 .stOne-eleTwo-sub-one .stOne-eleTwo-buttons button:first-child:hover {
+  width: 240px;
+}
 .sectionTwo .secTwo-wrk .stepOne-line .stOne-element-2 .stOne-eleTwo-sub-one .stOne-eleTwo-buttons button:last-child {
   width: 207px;
   height: 65px;
@@ -959,6 +986,9 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: #707070;
+}
+.sectionTwo .secTwo-wrk .stepOne-line .stOne-element-2 .stOne-eleTwo-sub-one .stOne-eleTwo-buttons button:last-child:hover {
+  width: 240px;
 }
 .sectionTwo .secTwo-wrk .stepOne-line .stOne-element-2 .stOne-eleTwo-sub-two .stpThree-subele-img {
   max-width: 90%;
@@ -1109,6 +1139,9 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+.sectionTwo .secTwo-wrk .stepTwo-line .stTwo-button button:hover {
+  width: 320px;
 }
 .sectionTwo .secTwo-wrk .stepThree-line {
   width: 100%;
@@ -1351,6 +1384,9 @@ body {
   color: #ffffff;
   margin-right: 15px;
 }
+.sectionTwo .secTwo-wrk .stepThree-line .stpThree-wrk .stpThree-element-2 .stpThree-subelement .stpThree-subele-buttons button:nth-child(1):hover {
+  width: 230px;
+}
 @media (max-width: 500px) {
   .sectionTwo .secTwo-wrk .stepThree-line .stpThree-wrk .stpThree-element-2 .stpThree-subelement .stpThree-subele-buttons button:nth-child(1) {
     margin-bottom: 50px;
@@ -1365,6 +1401,9 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #707070;
+}
+.sectionTwo .secTwo-wrk .stepThree-line .stpThree-wrk .stpThree-element-2 .stpThree-subelement .stpThree-subele-buttons button:nth-child(2):hover {
+  width: 230px;
 }
 
 .sectionThree {
@@ -1499,6 +1538,9 @@ body {
   font-size: 30px;
   line-height: 45px;
   color: #ffffff;
+}
+.sectionThree .secThree-wrk .preLast-line .prl-wrk button:hover {
+  width: 510px;
 }
 @media (max-width: 700px) {
   .sectionThree .secThree-wrk .preLast-line .prl-wrk button {
@@ -1655,4 +1697,10 @@ body {
   font-size: 28px;
   color: #707070;
   cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.sectionThree .secThree-wrk .last-line .lal-wrk .lal-element-2 ul li a:hover {
+  letter-spacing: 2.8px;
+  color: crimson;
 }

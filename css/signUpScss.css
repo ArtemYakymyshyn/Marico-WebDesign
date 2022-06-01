@@ -225,6 +225,12 @@ body {
   font-size: 37px;
   line-height: 56px;
   color: #ffffff;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-element-1 a:hover {
+  letter-spacing: 8.8px;
+  color: crimson;
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree {
   display: -webkit-box;
@@ -265,9 +271,9 @@ body {
     background-color: rgb(48, 110, 247);
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 624px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree {
-    min-width: 450px;
+    min-width: 624px;
   }
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul {
@@ -282,8 +288,14 @@ body {
   margin-left: 38px;
   font-weight: 500;
   font-size: 20px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   color: #707070;
   cursor: pointer;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a:hover {
+  letter-spacing: 2.8px;
+  color: crimson;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a {
@@ -308,6 +320,9 @@ body {
   margin-left: 6px;
   overflow: hidden;
 }
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li:first-child a div:hover {
+  color: crimson;
+}
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li:last-child a {
   margin-right: 0;
 }
@@ -321,8 +336,13 @@ body {
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child {
   background-color: black;
+  width: 119px;
+  height: 55px;
   -webkit-transform: translateX(-23px);
           transform: translateX(-23px);
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child:hover {
+  width: 140px;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child {
@@ -332,9 +352,16 @@ body {
   }
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a {
-  color: #707070;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
+  width: 119px;
+  height: 55px;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a:hover {
+  width: 100%;
+  height: 100%;
+  color: white;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:first-child a {
@@ -348,6 +375,9 @@ body {
   width: 119px;
   height: 55px;
   color: white;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:last-child:hover {
+  width: 140px;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-3 button:last-child {

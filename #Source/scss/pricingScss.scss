@@ -44,6 +44,11 @@ body {
                   font-size: 37px;
                   line-height: 56px;
                   color: #ffffff;
+                  transition-duration: 0.2s;
+                  &:hover {
+                     letter-spacing: 8.8px;
+                     color: crimson;
+                  }
                }
             }
             .fs-elementTwoAndThree {
@@ -68,8 +73,8 @@ body {
                   height: 100%;
                   background-color: rgba(48, 110, 247, 1);
                }
-               @media (max-width: 662px) {
-                  min-width: 662px;
+               @media (max-width: 624px) {
+                  min-width: 624px;
                }
                .fs-element-2 {
                   & ul {
@@ -81,8 +86,12 @@ body {
                            margin-left: 38px;
                            font-weight: 500;
                            font-size: 20px;
-
+                           transition-duration: 0.3s;
                            color: #707070;
+                           &:hover {
+                              letter-spacing: 2.8px;
+                              color: crimson;
+                           }
                            cursor: pointer;
                            @media (max-width: 1000px) {
                               color: white;
@@ -101,6 +110,9 @@ body {
                               height: 6px;
                               margin-left: 6px;
                               overflow: hidden;
+                              &:hover {
+                                 color: crimson;
+                              }
                            }
                         }
                      }
@@ -117,17 +129,28 @@ body {
 
                   & button:first-child {
                      background-color: black;
-
+                     width: 119px;
+                     height: 55px;
                      transform: translateX(-23px);
+                     &:hover {
+                        width: 140px;
+                     }
                      @media (max-width: 1000px) {
                         background-color: white;
                         width: 119px;
                         height: 55px;
                      }
                      & a {
-                        color: #707070;
+                        color: #ffffff;
                         font-weight: 500;
                         font-size: 20px;
+                        width: 119px;
+                        height: 55px;
+                        &:hover {
+                           width: 100%;
+                           height: 100%;
+                           color: white;
+                        }
                         @media (max-width: 1000px) {
                            color: rgba(48, 110, 247, 1);
                            width: 119px;
@@ -140,6 +163,9 @@ body {
                      width: 119px;
                      height: 55px;
                      color: white;
+                     &:hover {
+                        width: 140px;
+                     }
                      @media (max-width: 1000px) {
                         background-color: white;
                         width: 119px;
@@ -643,6 +669,11 @@ body {
                         font-size: 28px;
                         color: #707070;
                         cursor: pointer;
+                        transition-duration: 0.5s;
+                        &:hover {
+                           letter-spacing: 2.8px;
+                           color: crimson;
+                        }
                      }
                   }
                }

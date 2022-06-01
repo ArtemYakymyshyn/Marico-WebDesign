@@ -130,17 +130,28 @@ body {
 
                   & button:first-child {
                      background-color: black;
-
+                     width: 119px;
+                     height: 55px;
                      transform: translateX(-23px);
+                     &:hover {
+                        width: 140px;
+                     }
                      @media (max-width: 1000px) {
                         background-color: white;
                         width: 119px;
                         height: 55px;
                      }
                      & a {
-                        color: #707070;
+                        color: #ffffff;
                         font-weight: 500;
                         font-size: 20px;
+                        width: 119px;
+                        height: 55px;
+                        &:hover {
+                           width: 100%;
+                           height: 100%;
+                           color: white;
+                        }
                         @media (max-width: 1000px) {
                            color: rgba(48, 110, 247, 1);
                            width: 119px;
@@ -153,6 +164,9 @@ body {
                      width: 119px;
                      height: 55px;
                      color: white;
+                     &:hover {
+                        width: 140px;
+                     }
                      @media (max-width: 1000px) {
                         background-color: white;
                         width: 119px;
@@ -286,6 +300,9 @@ body {
                      background: #326cf9;
                      font-size: 20px;
                      color: #ffffff;
+                     &:hover {
+                        width: 340px;
+                     }
                      @media (max-width: 748px) {
                         margin-bottom: 40px;
                      }
@@ -297,6 +314,9 @@ body {
                      height: 76px;
                      color: white;
                      font-size: 20px;
+                     &:hover {
+                        width: 340px;
+                     }
                   }
                }
                .sl-element-2-button-text {
@@ -481,6 +501,9 @@ body {
                font-weight: 600;
                font-size: 20px;
                color: #707070;
+               &:hover {
+                  width: 340px;
+               }
             }
          }
          .stOne-element-2 {
@@ -570,6 +593,9 @@ body {
                      color: #ffffff;
                      background: #326cf9;
                      margin-right: 16px;
+                     &:hover {
+                        width: 240px;
+                     }
                   }
                   & button:last-child {
                      width: 207px;
@@ -579,6 +605,9 @@ body {
                      font-weight: 500;
                      font-size: 20px;
                      color: #707070;
+                     &:hover {
+                        width: 240px;
+                     }
                   }
                }
             }
@@ -703,6 +732,9 @@ body {
                font-size: 20px;
                line-height: 30px;
                color: #ffffff;
+               &:hover {
+                  width: 320px;
+               }
             }
          }
       }
@@ -867,6 +899,9 @@ body {
                         font-size: 20px;
                         color: #ffffff;
                         margin-right: 15px;
+                        &:hover {
+                           width: 230px;
+                        }
                         @media (max-width: 500px) {
                            margin-bottom: 50px;
                         }
@@ -880,6 +915,9 @@ body {
                         font-size: 20px;
                         line-height: 30px;
                         color: #707070;
+                        &:hover {
+                           width: 230px;
+                        }
                      }
                   }
                }
@@ -992,6 +1030,9 @@ body {
                font-size: 30px;
                line-height: 45px;
                color: #ffffff;
+               &:hover {
+                  width: 510px;
+               }
                @media (max-width: 700px) {
                   width: 250px;
                   font-size: 22px;
@@ -1101,6 +1142,11 @@ body {
                         font-size: 28px;
                         color: #707070;
                         cursor: pointer;
+                        transition-duration: 0.5s;
+                        &:hover {
+                           letter-spacing: 2.8px;
+                           color: crimson;
+                        }
                      }
                   }
                }
