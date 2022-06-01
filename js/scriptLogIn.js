@@ -13,10 +13,10 @@ hideImage.addEventListener('click', () => {
 
 const changeInputType = () => {
    inputPassword.setAttribute('type', 'text');
-   hideImage.setAttribute('src', 'img/closedEye.png');
+   hideImage.setAttribute('src', 'img/Eye.png');
 }
 const returnInputType = () => {
    inputPassword.setAttribute('type', 'password')
-   hideImage.setAttribute('src', 'img/Eye.png')
+   hideImage.setAttribute('src', 'img/closedEye.png')
    $isImageActivi = false;
 }

@@ -382,8 +382,19 @@ body {
                   justify-content: center;
                   height: 75px;
                   border: 2px solid #ffffff;
+                  transition-duration: 0.5s;
+                  &:hover {
+                     width: 33%;
+                     background-color: crimson;
+                     text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px,
+                        #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+                     @media (max-width: 1241px) {
+                        width: 90%;
+                     }
+                  }
+
                   @media (max-width: 1000px) {
-                     width: 90%;
+                     width: 83%;
                      margin-bottom: 50px;
                   }
                   & a {
@@ -411,6 +422,13 @@ body {
                font-weight: 500;
                font-size: 16px;
                color: #ffffff;
+               & a {
+                  color: white;
+                  transition-duration: 0.5s;
+                  &:hover {
+                     color: crimson;
+                  }
+               }
             }
          }
       }
