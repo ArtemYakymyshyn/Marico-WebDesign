@@ -214,23 +214,34 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 20%;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-element-1:hover img {
+  -webkit-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.sectionOne .secOne-wrk .first-line .fs-row .fs-element-1:hover a {
+  letter-spacing: 8.8px;
+  color: crimson;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-element-1 img {
   width: 45px;
   height: 42px;
   margin-right: 15px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-element-1 a {
   font-weight: 800;
   font-size: 37px;
   line-height: 56px;
   color: #ffffff;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-}
-.sectionOne .secOne-wrk .first-line .fs-row .fs-element-1 a:hover {
-  letter-spacing: 8.8px;
-  color: crimson;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree {
   display: -webkit-box;
@@ -288,14 +299,15 @@ body {
   margin-left: 38px;
   font-weight: 500;
   font-size: 20px;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   color: #707070;
   cursor: pointer;
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a:hover {
-  letter-spacing: 2.8px;
-  color: crimson;
+  letter-spacing: 3.8px;
+  color: red;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 @media (max-width: 1000px) {
   .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a {
@@ -538,6 +550,25 @@ body {
           justify-content: space-between;
   padding-bottom: 15px;
 }
+.sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-subelement .sl-subele-input-wraper input {
+  background-color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #ffffff;
+}
+.sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-subelement .sl-subele-input-wraper .sl-subele-input {
+  position: relative;
+}
+.sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-subelement .sl-subele-input-wraper .sl-subele-input label {
+  position: absolute;
+  color: white;
+  left: 0;
+  top: 0;
+  width: 200px;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
 .sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-subelement .sl-subele-input-wraper .sl-subele-input-img {
   width: 10%;
   display: -webkit-box;
@@ -558,13 +589,6 @@ body {
   width: 33px;
   height: 24px;
 }
-.sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-subelement .sl-subele-input-wraper input {
-  background-color: black;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 23px;
-  color: #ffffff;
-}
 .sectionOne .secOne-wrk .second-line .sl-wrk .sl-wrk-button {
   margin-top: 90px;
   display: -webkit-box;
@@ -581,6 +605,10 @@ body {
   font-weight: 400;
   font-size: 26px;
   color: #ffffff;
+}
+.sectionOne .secOne-wrk .second-line .sl-wrk .sl-wrk-button button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .sectionOne .secOne-wrk .third-line {
   width: 100%;
@@ -646,6 +674,8 @@ body {
   width: 33%;
   background-color: crimson;
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 @media (max-width: 1241px) {
   .sectionOne .secOne-wrk .third-line .thl-wrk .thl-element-2 .thl-sub-element:hover {

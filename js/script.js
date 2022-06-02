@@ -43,15 +43,6 @@ for (let i = 0; i < buttons.length; i++) {
    });
 };
 
-const delegatingList = document.querySelector('.lal-element-2-list');
-delegatingList.addEventListener('mouseenter', function (e) {
-   if (e.target.hasAttribute('data-set')) {
-
-   }
-});
-
-
-
 
 
 

@@ -66,34 +66,38 @@
             </div>
          </div>
 
-         <div class="second-line">
-            <div class="sl-wrk">
-               <div class="sl-element-1">
-                  <p>Log in</p>
-                  <p>Login into existing account.</p>
-               </div>
-               <div class="sl-element-2">
-
-                  <div class="sl-subelement">
-                     <div class="sl-subele-input-wraper">
-                        <input placeholder="Username" type="text">
-                        <div class="sl-subele-input-img"><img src="img/User.png" alt="404"></div>
-
-                     </div>
+         <form method="get">
+            <div class="second-line">
+               <div class="sl-wrk">
+                  <div class="sl-element-1">
+                     <p>Log in</p>
+                     <p>Login into existing account.</p>
                   </div>
-                  <div class="sl-subelement">
-                     <div class="sl-subele-input-wraper">
-                        <input id="inputPassword" placeholder="Password" type="password">
-                        <div class="sl-subele-input-img"><img id="hideImage" class="sl-subele-input-img-1"
-                              src="img/closedEye.png" alt="404">
+                  <div class="sl-element-2">
+
+                     <div class="sl-subelement">
+                        <div class="sl-subele-input-wraper">
+                           <div class="sl-subele-input"><input name="username" minlength="8" maxlength="15" required
+                                 id="username" placeholder="Username" type="text"></div>
+                           <div class="sl-subele-input-img"><img src="img/User.png" alt="404"></div>
+
                         </div>
+                     </div>
+                     <div class="sl-subelement">
+                        <div class="sl-subele-input-wraper">
+                           <div class="sl-subele-input"><input name="password" required minlength="8" maxlength="15"
+                                 id="password" placeholder="Password" type="password"></div>
+                           <div class="sl-subele-input-img"><img id="hideImage" class="sl-subele-input-img-1"
+                                 src="img/closedEye.png" alt="404">
+                           </div>
 
+                        </div>
                      </div>
                   </div>
+                  <div class="sl-wrk-button"><button id="baton" type="submit">Log In</button></div>
                </div>
-               <div class="sl-wrk-button"><button>Log In</button></div>
             </div>
-         </div>
+         </form>
 
          <div class="third-line">
             <div class="thl-wrk">
@@ -128,6 +132,9 @@
    </div>
 
    <br><br><br><br><br>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/validationJQuery/jquery.validate.js"></script>
+   <script src="js/validationJQuery/jquery.validate.min.js"></script>
    <script src="js/scriptLogIn.js"></script>
    <script src="js/script.js"></script>
 </body>

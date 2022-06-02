@@ -1,4 +1,4 @@
-const inputPassword = document.querySelector('#inputPassword');
+const inputPassword = document.querySelector('#password');
 const hideImage = document.querySelector('#hideImage');
 var $isImageActivi = false
 hideImage.addEventListener('click', () => {
@@ -10,6 +10,12 @@ hideImage.addEventListener('click', () => {
    }
 
 })
+const baton = document.querySelector('#baton')
+
+// baton.addEventListener('click', (e) => {
+//    e.preventDefault()
+// });
+
 
 const changeInputType = () => {
    inputPassword.setAttribute('type', 'text');
@@ -20,3 +26,29 @@ const returnInputType = () => {
    hideImage.setAttribute('src', 'img/closedEye.png')
    $isImageActivi = false;
 }
+
+$('form').validate({
+   rules: {
+      username: {
+         required: true,
+      },
+      password: {
+         required: true,
+      }
+   },
+   submitHandler: function (form) {
+      $(form).ajaxSubmit();
+      $(baton).on('click', function (e) {
+         form.submit
+      });
+   }
+});
+// const passwordInput = document.querySelector('#password');
+// baton.addEventListener('click', function (e) {
+//    if (passwordInput.value.length <= 8) {
+//       e.preventDefault()
+
+//    } else {
+//       return
+//    }
+// });

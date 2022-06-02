@@ -35,21 +35,31 @@ body {
                display: flex;
                align-items: center;
                width: 20%;
+               transition-duration: 0.5s;
+               &:hover {
+                  & img {
+                     transform: rotateY(-360deg);
+                     transition-duration: 0.5s;
+                  }
+                  & a {
+                     letter-spacing: 8.8px;
+                     color: crimson;
+                     text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px,
+                        #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+                  }
+               }
                & img {
                   width: 45px;
                   height: 42px;
                   margin-right: 15px;
+                  transition-duration: 0.5s;
                }
                & a {
                   font-weight: 800;
                   font-size: 37px;
                   line-height: 56px;
                   color: #ffffff;
-                  transition-duration: 0.2s;
-                  &:hover {
-                     letter-spacing: 8.8px;
-                     color: crimson;
-                  }
+                  transition-duration: 0.5s;
                }
             }
             .fs-elementTwoAndThree {
@@ -87,11 +97,13 @@ body {
                            margin-left: 38px;
                            font-weight: 500;
                            font-size: 20px;
-                           transition-duration: 0.3s;
+                           transition-duration: 0.5s;
                            color: #707070;
                            &:hover {
-                              letter-spacing: 2.8px;
-                              color: crimson;
+                              letter-spacing: 3.8px;
+                              color: red;
+                              text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px,
+                                 #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
                            }
                            cursor: pointer;
                            @media (max-width: 1000px) {
@@ -1144,8 +1156,10 @@ body {
                         cursor: pointer;
                         transition-duration: 0.5s;
                         &:hover {
-                           letter-spacing: 2.8px;
-                           color: crimson;
+                           letter-spacing: 3.8px;
+                           color: red;
+                           text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px,
+                              #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
                         }
                      }
                   }
