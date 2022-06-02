@@ -20,3 +20,20 @@ const returnInputType = () => {
    hideImage.setAttribute('src', 'img/closedEye.png')
    $isImageActivi = false;
 }
+
+$('form').validate({
+   rules: {
+      username: {
+         required: true
+      },
+      password: {
+         required: true,
+      },
+      email: {
+         required: true,
+      }
+   }
+
+
+
+});

@@ -306,7 +306,7 @@ body {
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a:hover {
   letter-spacing: 3.8px;
-  color: red;
+  color: white;
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 @media (max-width: 1000px) {
@@ -997,6 +997,6 @@ body {
 }
 .sectionOne .secOne-wrk .last-line .lal-wrk .lal-element-2 ul li a:hover {
   letter-spacing: 3.8px;
-  color: red;
+  color: white;
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }

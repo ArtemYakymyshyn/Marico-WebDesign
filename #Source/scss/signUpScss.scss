@@ -100,7 +100,7 @@ body {
                            color: #707070;
                            &:hover {
                               letter-spacing: 3.8px;
-                              color: red;
+                              color: white;
                               text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px,
                                  #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
                            }
@@ -297,7 +297,15 @@ body {
 
                      .sl-ele-subele-input {
                         width: 90%;
-
+                        position: relative;
+                        & label {
+                           color: white;
+                           width: 300px;
+                           position: absolute;
+                           left: 0;
+                           top: 0;
+                           transform: translateY(60px);
+                        }
                         & input {
                            width: 100%;
                            background-color: black;

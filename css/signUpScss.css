@@ -306,7 +306,7 @@ body {
 }
 .sectionOne .secOne-wrk .first-line .fs-row .fs-elementTwoAndThree .fs-element-2 ul li a:hover {
   letter-spacing: 3.8px;
-  color: red;
+  color: white;
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 @media (max-width: 1000px) {
@@ -565,6 +565,16 @@ body {
 }
 .sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-element-2-subele .sl-ele-2-subele-input-wraper .sl-ele-subele-input {
   width: 90%;
+  position: relative;
+}
+.sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-element-2-subele .sl-ele-2-subele-input-wraper .sl-ele-subele-input label {
+  color: white;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
 }
 .sectionOne .secOne-wrk .second-line .sl-wrk .sl-element-2 .sl-element-2-subele .sl-ele-2-subele-input-wraper .sl-ele-subele-input input {
   width: 100%;
